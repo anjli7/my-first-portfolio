@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: var(--btn-bg); */
+}
+
+:root {
+    --text-color: white;
+    --text-color2: black;
+    --btn-bg:#1E242B;
+    --btn-border:#2AD87F;
+}
+
+.main {
+    background: rgb(30, 36, 43);
+    background: linear-gradient(90deg, rgba(30, 36, 43, 1) 65%, rgba(42, 216, 127, 1) 65%);
+    height: 100vh;
+    position: relative;
+}
+
+nav{
+    
+    max-width: 90vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+nav span{
+    color: var(--text-color);
+    font-size: 30px;
+    position: fixed;
+    top: 10px;
+
+}
+.nav-ul{
+    display: flex;
+    gap: 20px;
+
+}
+.nav-ul li a i {
+    font-size: 20px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav div li a{
+    text-decoration: none;
+    color: var(--text-color2);
+}
+
+.box{
+    max-width: 55vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 85vh;
+    color: var(--text-color);
+    position: relative;
+}
+.box-2 img{
+    border-radius: 200px;
+    border: 5px solid #2AD87F;
+}
+.box-1 h3{
+    color: var(--btn-border);
+}
+.box-1 h2{
+    font-size: 48px;
+}
+/* .box-1 .btn{
+    background-color: var(--btn-bg);
+    color: var(--text-color);
+    padding: 12px 12px;
+    border: 2px solid #2AD87F;
+    font-size: 18px;
+    width: 50%;
+
+
+    .btn2 {
+   
+}
+} */
+.box-1 .btn{
+    /* width: 165px; */
+    display: flex;
+    /* display: inline; */
+    max-width: 50%;
+    gap: 12px;
+    justify-content: center;
+    /* align-items: center; */
+border: 2px solid var(--btn-border);
+}
+.box-1 .btn1{
+    width: 80%;
+    padding: 10px 0px 10px 20px;
+
+}
+.btn2 {
+    width: 20%;
+    background-color: var(--btn-border);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.frist{
+    background-color: var(--btn-bg);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.section-1{
+    display: flex;
+    gap: 140px;
+    max-width: 70%;
+
+}
+.img-1 img{
+    box-shadow: -30px 30px var(--btn-border)
+}
+.about{
+    color: var(--text-color);
+}
+.about h2{
+    font-size: 45px;
+    margin-bottom: 10px;    
+}
+.about p{
+    padding-bottom: 30px;
+    padding-top:40px ;
+}
+
+.about .btn-Hire {
+    border: 3px solid var(--btn-border);
+    padding: 8px 45px;
+    background-color: var(--btn-border);
+}
+
+.about .btn-CV {
+    border: 3px solid var(--btn-border);
+    padding: 8px 45px;
+    background-color: var(--btn-bg);
+    color: var(--text-color);
+    margin-left: 15px;
+}
+.separation{
+    width: 20px ;
+    background-color: var(--btn-border);
+}
+.second{
+    background-color: var(--btn-bg);
+    color: var(--text-color);
+}
+.second h2{
+    padding: 30px 205px;
+    font-size: 45px;
+
+}
+.grid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+}
+.grid h4{
+    font-size: 20px;
+}
+.grid p{
+    color: var(--btn-border);
+}
+.third .img-p img{
+    box-shadow: 30px 30px var(--btn-border);
+
+}
+.third .outer{
+    background: #485056;
+    width: 50%;
+}
+.third .inner{
+    border: 6px solid #2AD87F;
+    width: 70%;
+
+}
+.third .inner-2{
+    border: 6px solid #2AD87F;
+    width: 58%;
+}
+.third h3{
+    padding: 15px 0px;
+}
+
+.contact  .p {
+    color: #2AD87F;
+    margin-right: 40px;
+    font-size: 20px;
+
+}
+
+.contact .A{
+    color: #2AD87F;
+    margin-right: 27px;
+    font-size: 20px;
+}
+.contact .E{
+    color: #2AD87F;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.fifth{
+    color: var(--text-color);
+    background: rgb(42,216,127);
+background: linear-gradient(90deg, rgba(42,216,127,1) 32%, rgba(30,36,43,1) 32%);
+}
+.fifth .section-2{
+        display: flex;
+        gap: 170px;
+        max-width: 59%;
+    
+}
+.fifth .TH h2{
+    font-size: 60px;
+    
+}
+.fifth .TH h3{
+    padding-top: 15px;
+    color: #2AD87F;
+}
+.fifth .TH P{
+    padding-bottom: 40px;
+}
+.fifth .profile{
+    background-color: #1e242b;
+    border: 2px solid #2ad87f;
+    padding: 8px 25px;
+    color: white;
+
+}
+.fifth .contact{
+    border: 2px solid #2ad87f;
+    background-color: #2ad87f;
+    padding: 8px 40px;
+    margin-left: 10px;
+}
